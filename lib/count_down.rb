@@ -1,7 +1,6 @@
-n = 10
-count_down = n
+count_down = 10
 while count_down != 0 do
-  puts n
-  n -= 1
+  puts count_down
+  count_down = count_down - 1
 end
 puts "Happy New Year!"
